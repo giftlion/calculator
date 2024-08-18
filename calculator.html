@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- bottstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="calculator.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="calculator.css" />
     <script src="calculator.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <h1>my calculator</h1>
     <div class="calc">
-        <div class="screen" id="screen">
-
-        </div>
-        <div class="buttons d-flex flex-wrap justify-content-between">
-            <button onclick="chooseSign(1)" value="1">1</button>
-            <button onclick="chooseSign(2)" value="2">2</button>
-            <button onclick="chooseSign(3)" value="3">3</button>
-            <button onclick="chooseSign('*')" value="*">*</button>
-            <button onclick="chooseSign(4)" value="4">4</button>
-            <button onclick="chooseSign(5)" value="5">5</button>
-            <button onclick="chooseSign(6)" value="6">6</button>
-            <button onclick="chooseSign('/')" value="/">/</button>
-            <button onclick="chooseSign(7)" value="7">7</button>
-            <button onclick="chooseSign(8)" value="8">8</button>
-            <button onclick="chooseSign(9)" value="9">9</button>
-            <button onclick="chooseSign('+')" value="+">+</button>
-            <button onclick="chooseSign(0)" value="0">0</button>
-            <button onclick="chooseSign('-')" value="-">-</button>
-            <button onclick="chooseSign('%')" value="%">%</button>
-            <button onclick="chooseSign('=')" value="=">=</button>
-            <button onclick="reset()" style="width: 100%;">reset</button>
-        </div>
+      <div class="screen" id="screen"></div>
+      <div class="buttons d-flex flex-wrap justify-content-between">
+        <button onclick="chooseSign(1)" value="1">1</button>
+        <button onclick="chooseSign(2)" value="2">2</button>
+        <button onclick="chooseSign(3)" value="3">3</button>
+        <button onclick="chooseSign('*')" value="*">*</button>
+        <button onclick="chooseSign(4)" value="4">4</button>
+        <button onclick="chooseSign(5)" value="5">5</button>
+        <button onclick="chooseSign(6)" value="6">6</button>
+        <button onclick="chooseSign('/')" value="/">/</button>
+        <button onclick="chooseSign(7)" value="7">7</button>
+        <button onclick="chooseSign(8)" value="8">8</button>
+        <button onclick="chooseSign(9)" value="9">9</button>
+        <button onclick="chooseSign('+')" value="+">+</button>
+        <button onclick="chooseSign(0)" value="0">0</button>
+        <button onclick="chooseSign('-')" value="-">-</button>
+        <button onclick="chooseSign('%')" value="%">%</button>
+        <button onclick="chooseSign('=')" value="=">=</button>
+        <button onclick="reset()" style="width: 100%">reset</button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
